@@ -1,4 +1,4 @@
-# Microsoft Teams Webhook Notifications
+# Microsoft Teams Incoming Webhook Notifications
 
 This actions sends a message to your Microsoft Teams channel using an Incoming Webhook connector. An Incoming Webhook connector must be setup on your Microsoft Teams channel before this action can be used successfully.
 
@@ -21,7 +21,7 @@ This actions sends a message to your Microsoft Teams channel using an Incoming W
 ## Example usage
 
 ```
-- name: Send message to ms teams
+- name: Send message to ms teams channel
   uses: echapmanFromBunnings/msteams-connector-webhook@1.0
   with:
     webhook: 'https://outlook.office.com/webhook/<webHookId>'
