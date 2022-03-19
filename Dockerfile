@@ -1,4 +1,4 @@
-FROM python:alpine3.14
+FROM bgldocker/msteams:latest
 
 COPY entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
