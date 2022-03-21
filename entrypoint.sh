@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 export webhook=$1
 export title=$2
