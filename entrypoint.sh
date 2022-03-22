@@ -11,7 +11,7 @@ import sys
 
 webhook = sys.argv[1]
 title = sys.argv[2]
-message = ' '.join(sys.argv[3:])
+message = sys.argv[3]
 
 myTeamsMessage = pymsteams.connectorcard(webhook)
 myTeamsMessage.title(title)
