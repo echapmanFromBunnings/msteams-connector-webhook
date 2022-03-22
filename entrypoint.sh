@@ -25,4 +25,4 @@ EOF
 
 chmod 755 webhook.py
 
-./webhook.py $webhook $message
+py webhook.py $webhook $message
