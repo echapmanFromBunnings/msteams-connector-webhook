@@ -14,10 +14,8 @@ title = sys.argv[2]
 message = ' '.join(sys.argv[3:])
 
 myTeamsMessage = pymsteams.connectorcard(webhook)
-myMessageSection = pymsteams.cardsection()
-myMessageSection.title(title)
-myMessageSection.text(message.replace("webhook.py", ""))
-
+myTeamsMessage.title(title)
+myTeamsMessage.text(message.replace("webhook.py", ""))
 myTeamsMessage.printme()
 myTeamsMessage.send()
 
@@ -25,4 +23,4 @@ EOF
 
 chmod 755 webhook.py
 
-./webhook.py $webhook $message
+./webhook.py $webhook $title $message
