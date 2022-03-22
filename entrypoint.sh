@@ -15,7 +15,7 @@ message = ' '.join(sys.argv[3:])
 
 myTeamsMessage = pymsteams.connectorcard(webhook)
 myTeamsMessage.title(title)
-myTeamsMessage.text(message.replace("webhook.py", ""))
+myTeamsMessage.text(message.replace("webhook.py", "*"))
 myTeamsMessage.printme()
 myTeamsMessage.send()
 
