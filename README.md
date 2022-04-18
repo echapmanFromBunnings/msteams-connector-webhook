@@ -22,7 +22,7 @@ This actions sends a message to your Microsoft Teams channel using an Incoming W
 
 ```
 - name: Send message to ms teams channel
-  uses: echapmanFromBunnings/msteams-connector-webhook@1.0
+  uses: echapmanFromBunnings/msteams-connector-webhook@2.0.3
   with:
     webhook: 'https://outlook.office.com/webhook/<webHookId>'
     message: 'Hello world. This is a slug... &#x1F41B;'
