@@ -1,5 +1,5 @@
 name: 'Microsoft Teams Incoming Webhook Notifications'
-description: 'Sends a message to your Microsoft Teams channel using the MS Teams Webhook connector'
+description: 'Sends an Adaptive Card message to your Microsoft Teams channel using a Power Automate workflow webhook'
 inputs:
   webhook:
     description: 'The webhook url for your Incoming Webhook connector'
